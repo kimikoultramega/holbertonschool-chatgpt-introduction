@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 import sys
 
-if len(sys.argv) > 1:
-    for i in range(len(sys.argv)):
-        print(sys.argv[i])
-else:
-    print("Uso: ./script.py [argumentos...]")
+for i in range(1, len(sys.argv)):
+    print(sys.argv[i])
+    
